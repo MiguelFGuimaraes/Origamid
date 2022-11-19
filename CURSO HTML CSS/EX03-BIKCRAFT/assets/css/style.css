@@ -57,6 +57,7 @@ img {
   position: relative;
 }
 
+
 .introducao h1,
 p,
 a {
@@ -92,12 +93,12 @@ a {
 }
 .introducao h1::before {
   content: "";
-  width: 30px;
-  height: 20px;
-  color: red;
+  width: 60px;
+  height: 5px;
+  background-color: red;
   position: absolute;
   top: 30px;
-  left: -40px;
+  left: 470px;
 }
 .vantagens-grid h2 {
   color: gray;
