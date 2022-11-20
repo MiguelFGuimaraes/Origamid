@@ -43,6 +43,7 @@ img {
 .menu a {
   padding: 30px 40px;
   display: inline-block;
+  color: black;
 }
 .grid-principal {
   display: grid;
@@ -69,8 +70,9 @@ a {
   padding: 20px 30px;
   background-color: red;
   color: #f7f7f7;
-  border-radius: 4px;
+  border-radius: 10px;
   text-transform: uppercase;
+  ;
 }
 .vantagens-grid {
   display: grid;
@@ -105,4 +107,11 @@ a {
   font-size: 64px;
   text-align: right;
   margin: auto;
+}
+.vantagem h2 {
+  color: #c6c6c6;
+  font-size: 64px;
+  height: 10px;
+  padding: 50px;
+  
 }
