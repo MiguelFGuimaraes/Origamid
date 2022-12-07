@@ -46,15 +46,22 @@ img {
   gap: 60px;
 }
 
-
 .menu a {
-  padding: 30px 40px;
+  padding: 20px 40px;
+  background-color: white;
   display: inline-block;
   color: black;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.menu a:hover {
+  border: 2px solid #900;
 }
 .grid-principal {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: white;
 }
 
 .introducao {
@@ -64,7 +71,6 @@ img {
   padding: 20px;
   position: relative;
 }
-
 
 .introducao h1,
 p,
@@ -79,13 +85,13 @@ a {
   color: #f7f7f7;
   border-radius: 10px;
   text-transform: uppercase;
-  ;
 }
 .vantagens-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
   align-items: center;
+  background-color: #f7f7f7;
 }
 
 .vantagens-itens {
@@ -93,6 +99,7 @@ a {
   display: grid;
   grid-template-columns: 40px 1fr;
   margin-bottom: 30px;
+  padding: 15px;
 }
 .vantagens-itens img {
   grid-column: 1;
@@ -110,15 +117,22 @@ a {
   left: 470px;
 }
 .vantagens-grid h2 {
-  color: gray;
-  font-size: 64px;
+  color: rgba(128, 128, 128, 0.507);
+  font-size: 4rem;
   text-align: right;
   margin: auto;
 }
 .vantagem h2 {
+  background-image: url("../img/onda.svg");
+
   color: #c6c6c6;
-  font-size: 64px;
-  height: 10px;
+  font-size: 4rem;
   padding: 50px;
-  
+}
+.vantagens-itens:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+.box {
+  background-color: white;
+  padding: 20px;
 }
