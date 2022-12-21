@@ -62,7 +62,6 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: white;
-  max-width: 1000px;
 }
 
 .introducao {
@@ -112,7 +111,7 @@ a {
   content: "";
   width: 60px;
   height: 4px;
-  background-color: red;
+  background-color: #e21;
   position: absolute;
   top: 30px;
   right: -30px;
@@ -125,11 +124,10 @@ a {
 }
 .vantagem h2 {
   background-image: url("../img/onda.svg");
+
   color: #c6c6c6;
   font-size: 4rem;
-  padding: 40px;
-  text-align: right;
-  align-self: center;
+  padding: 50px;
 }
 .vantagens-itens:nth-child(odd) {
   background-color: #f7f7f7;
@@ -143,12 +141,21 @@ a {
   border-left: 2px solid red;
 }
 
+@media (max-width: 1000px) {
+  .vantagens-itens {
+    grid-template-columns: 1fr;
+  }
+  .vantagem {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+  .introducao h1::before
+  }
 .img-introducao img {
   object-fit: cover;
   height: 100%;
-}
-@media (max-width 1000px) {
-  .grid-principal {
-    grid-template-columns: 1fr;
-  }
-}
+ }
