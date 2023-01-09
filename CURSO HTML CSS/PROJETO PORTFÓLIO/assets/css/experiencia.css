@@ -27,6 +27,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
+  gap: 10px 20px;
   background: #f5f5f5;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -46,8 +47,10 @@
 
 .empresa-ano {
   position: absolute;
-  top: 20px;
+  top: 22px;
   left: -100px;
+  text-align: right;
+  width: 80px;
   color: #525252;
   font-size: 0.875;
 }
@@ -73,4 +76,6 @@
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
+  background: #ffffff;
+  padding: 5px 10px;
 }
