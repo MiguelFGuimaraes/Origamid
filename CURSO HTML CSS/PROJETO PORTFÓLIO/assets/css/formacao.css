@@ -42,7 +42,8 @@
   flex-direction: column;
 }
 
-.faculdade-tipo {
+.faculdade-tipo,
+.faculdade-instituicao {
   font-size: 0.875rem;
   text-transform: uppercase;
   color: #a3a3a3;
@@ -55,12 +56,12 @@
   position: relative;
 }
 
-.falcudade-curso ::before {
+.faculdade-curso::before {
   content: "";
   display: block;
   width: 4px;
   height: 20px;
   background: linear-gradient(#b6f829, #67dd0a);
   position: absolute;
-  left: 24px;
+  left: -24px;
 }
