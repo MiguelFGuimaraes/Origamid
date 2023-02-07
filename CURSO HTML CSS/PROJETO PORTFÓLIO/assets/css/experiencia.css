@@ -93,14 +93,14 @@
   }
   .empresa-ano {
     position: initial;
-    order:1;
+    order: 1;
     width: initial;
     text-align: left;
   }
 }
 
 @media (max-width: 400px) {
-.empresa {
-grid-template-columns: 1fr;
-}
+  .empresa {
+    grid-template-columns: 1fr;
+  }
 }
