@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  a:link {
+    text-decoration: none;
+  }
+  .Hoje {
+    color: darkred;
+  }
+  .Amanha {
+    color: darkblue;
+  }
+  .link {
+    color: seagreen;
+  }
+  .Hoje {
+    font-size: 20px;
+  }
+  .Amanha {
+    font-size: 20px;
+  }
+}
