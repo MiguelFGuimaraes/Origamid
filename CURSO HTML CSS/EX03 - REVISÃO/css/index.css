@@ -1,0 +1,68 @@
+body {
+  font-family: arial;
+  margin: 0px;
+  display: grid;
+  gap: 60px;
+  background: #f7f7f7;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* .vermais {
+} */
+
+.vantagens {
+  font-size: 64px;
+}
+
+.conteudo {
+  max-width: 1000px;
+}
+.vantagem {
+  grid-column: 1;
+}
+.detalhes {
+  grid-column: 1;
+}
+
+.foto {
+  grid-column: 2;
+}
+.topo {
+  display: flex;
+  gap: 20px;
+}
+.detalhes1 {
+  grid-column: 2;
+}
+.topo a {
+  padding: 20px 30px;
+  color: black;
+  background-color: white;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
