@@ -34,6 +34,8 @@ p {
 
 .vantagens {
   font-size: 64px;
+  padding-left: 50px;
+  padding-top: 50px;
 }
 
 .conteudo {
@@ -43,7 +45,9 @@ p {
   grid-column: 1;
 }
 .detalhes {
-  grid-column: 1;
+  grid-column: 2;
+  padding: 50px;
+  background-color: white;
 }
 
 .foto {
@@ -54,15 +58,30 @@ p {
   gap: 20px;
 }
 .detalhes1 {
-  grid-column: 2;
+  grid-column: 1;
+  background-color: white;
 }
 .topo a {
   padding: 20px 30px;
   color: black;
   background-color: white;
+  border-radius: 10px;
 }
 
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.titulo {
+  padding: 45px;
+}
+
+.nimbus {
+  padding: 5px;
+  text-align: end;
+}
+
+.vermais a {
+  padding-left: 50px;
 }
