@@ -36,6 +36,7 @@ p {
   font-size: 64px;
   padding-left: 50px;
   padding-top: 50px;
+  color: gray;
 }
 
 .conteudo {
@@ -74,14 +75,22 @@ p {
 }
 
 .titulo {
-  padding: 45px;
+  padding-left: 90px;
+  padding-top: 75px;
 }
 
 .nimbus {
-  padding: 5px;
   text-align: end;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-left: 50px;
+  text-align: left;
 }
 
-.vermais a {
-  padding-left: 50px;
+.veja a {
+  display: flex;
+  padding-left: 300px;
+  padding-top: 25px;
+  background-color: red;
+  color: white;
 }
