@@ -29,14 +29,16 @@ p {
   line-height: 30px;
 }
 
-/* .vermais {
-} */
+
+
+
 
 .vantagens {
   font-size: 64px;
   padding-left: 50px;
   padding-top: 50px;
-  color: gray;
+  color: #c6c6c6;
+  text-align: end;
 }
 
 .conteudo {
@@ -79,6 +81,16 @@ p {
   padding-top: 75px;
 }
 
+.titulo h1::before {
+  content: "";
+  width: 60px;
+  height: 5px;
+  background-color: red;
+  position: absolute;
+  top: 30px;
+  left: 470px
+}
+
 .nimbus {
   text-align: end;
   padding-right: 50px;
@@ -87,10 +99,33 @@ p {
   text-align: left;
 }
 
-.veja a {
-  display: flex;
-  padding-left: 300px;
-  padding-top: 25px;
+.veja {
+  display: inline-block;
+  padding: 15px 35px;
+  margin-top: 25px;
+  margin-left: 300px;
+  text-decoration: none;
+  border-radius: 5px;
   background-color: red;
-  color: white;
+  color: white; /* Definindo a cor do texto como branca */
+  transition: background-color 0.3s ease;
 }
+
+.veja:hover {
+  background-color: darkred;
+}
+
+@media screen and (min-width: 768px) {
+  .conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .conteudo {
+    display: block;
+  }
+}
+
