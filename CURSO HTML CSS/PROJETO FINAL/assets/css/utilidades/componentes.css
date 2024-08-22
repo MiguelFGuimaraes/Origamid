@@ -8,8 +8,9 @@
   color: #332200;
   font-size: 18px;
   line-height: 1.33;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif; /* Adicionado 'sans-serif' como fallback */
   font-weight: 600;
+  transition: background 0.3s ease; /* Adicionado para transição suave */
 }
 
 .botao:hover {
