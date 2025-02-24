@@ -2,7 +2,6 @@ body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif; /* Considerar a fonte global do site */
   color: var(--cor-11);
-  padding-bottom: 600px;
 }
 
 h1,
